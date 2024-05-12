@@ -1,0 +1,2259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chiasecongthucnauan</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: inherit;
+          }
+          
+          html {
+            font-size: 62.5%;
+            box-sizing: border-box;
+            font-family: "Raleway", sans-serif;
+          }
+          
+          .container {
+            width: 1150px;
+            margin: 0 auto;
+            max-width: 100%;
+            padding: 0 15px;
+          }
+          
+          .full-width {
+            width: 100%;
+            overflow: hidden;
+          }
+          
+          .box-container {
+            display: flex;
+            flex-wrap: wrap;
+          }
+          
+          .box-container-center {
+            margin-right: -3.2rem;
+          }
+          
+          .mt-0 {
+            margin-top: 0;
+          }
+          
+          .mb-24 {
+            margin-bottom: 2.4rem;
+          }
+          
+          .mt-16 {
+            margin-top: 1.6rem;
+          }
+          
+          .mt-40 {
+            margin-top: 4rem;
+          }
+          
+          .header {
+            margin-top: 2.4rem;
+          }
+          .header-main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 2.4rem;
+            border-bottom: 0.1rem solid #ecedf1;
+          }
+          .header-logo {
+            display: flex;
+            align-items: center;
+            
+          }
+          .header-logo .logo-img {
+            margin-right: 4rem;
+            border-radius: 50%;
+          }
+          .header-form {
+            width: 100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+          }
+          .header-form input {
+            width: 34rem;
+            height: 4rem;
+            background-color: #ecedf1;
+            border-radius: 2rem;
+            border: none;
+            padding: 0.9rem 1.6rem;
+          }
+          .header-form i {
+            position: absolute;
+            right: 2rem;
+            font-size: 1.7rem;
+            color: #d1193f;
+          }
+          .header-nav-list {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: 4rem;
+          }
+          .header-nav-link {
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+            color: #383f47;
+          }
+          .header-nav-link:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .header-nav-img {
+            width: 2.4rem;
+            height: 2.4rem;
+            margin-bottom: 0.8rem;
+          }
+          
+            .header-form {
+              width: 25rem;
+            }
+            .header-nav-list {
+              margin-right: 1.8rem;
+            }
+            .header-nav-link {
+              font-size: 1.3rem;
+            }
+          .header-logo .logo-img {
+            margin-right: 3rem;
+          }
+           .header-main {
+              flex-direction: column;
+            }
+            .header-nav-menu {
+              margin-top: 1.6rem;
+            }
+            .header-nav-list {
+              margin-right: 1.5rem;
+            }
+             .header .logo-img {
+              margin-right: 2rem;
+            }
+          
+          
+          .header-bottom-main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 0.1rem solid #ecedf1;
+            padding-top: 1.3rem;
+            padding-bottom: 1.3rem;
+            margin-bottom: 3.3rem;
+          }
+          .header-bottom-list {
+            display: inline-block;
+            margin-right: 4rem;
+          }
+          .header-bottom-link {
+            color: #383f47;
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+          }
+          .header-bottom-link:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .header-bottom-link i {
+            margin-left: 0.4rem;
+            color: #d1193f;
+          }
+          .header-bottom .active {
+            color: #d1193f;
+          }
+          .header-bottom .btn {
+            background-color: #d1193f;
+            padding: 0.8rem 1.4rem;
+            color: #ffffff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+            border-radius: 0.8rem;
+          }
+          .food-deli-title {
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 4.7rem;
+            font-family: "Roboto+Condensed", sans-serif;
+            position: relative;
+          }
+          .food-deli-title::before {
+            position: absolute;
+            content: "";
+            background-color: #d1193f;
+            height: 0.8rem;
+            width: 100%;
+            bottom: 0;
+          }
+          .blog-deli-title::before {
+            width: 22%;
+          }
+          .blog-main {
+            display: flex;
+            margin-top: 1.6rem;
+            padding-top: 1.6rem;
+            border-top: 0.1rem solid #ecedf1;
+          }
+          .blog-img {
+            width: 200px;
+            height: 180px;
+            margin-right: 1.6rem;
+          }
+          .blog-content-title {
+            margin-bottom: 0.4rem;
+          }
+          .blog-content-title a {
+            font-size: 2.4rem;
+            line-height: 3.2rem;
+            font-weight: 600;
+            color: #383f47;
+          }
+          .blog-content-title a:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .blog-desc {
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+            color: #646d84;
+            margin-bottom: 1.2rem;
+          }
+          .blog-user {
+            display: flex;
+            align-items: center;
+          }
+          
+          .blog-name {
+            color: #383f47;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-right: 0.8rem;
+            line-height: 2.2rem;
+          }
+          .blog-monitor {
+            padding: 0.4rem 0.8rem;
+            background-color: #ffdae1;
+            color: red;
+            font-size: 1.2rem;
+            line-height: 2rem;
+            font-weight: 400;
+            border-radius: 0.4rem;
+            margin-right: 2.4rem;
+          }
+          .blog-share {
+            font-size: 1.6rem;
+            color: #9399a9;
+          }
+          .blog-date {
+            float: right;
+          }
+          .blog-date span {
+            font-size: 1.2rem;
+            color: #9399a9;
+            font-weight: 600;
+            line-height: 1.8rem;
+          }
+          .blog-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          
+          .blog-theme-img {
+            margin-bottom: 1.6rem;
+            width: 100%;
+          }
+          .blog-text {
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 2.6rem;
+            color: #4c4e5e;
+            margin-bottom: 0.8rem;
+            margin-right: 1.2rem;
+          }
+          .blog-text-share {
+            font-size: 1.4rem;
+            color: #9399a9;
+            font-weight: 400;
+            line-height: 2.2rem;
+          }
+          .blog-text-share i {
+            margin-right: 0.4rem;
+          }
+          .blog-instructions {
+            display: flex;
+          }
+          .blog-text-main {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 1.6rem;
+            border-bottom: 0.1rem solid #ecedf1;
+          }
+          .blog-instructions-1 {
+            font-size: 4.8rem;
+            font-weight: 600;
+            line-height: 5.6rem;
+            color: #d4d4d6;
+          }
+          .blog-group {
+            padding-top: 1.6rem;
+            display: flex;
+            align-items: center;
+          }
+          .blog-group a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 6rem;
+            height: 4rem;
+            background-color: #ecedf1;
+            border-radius: 100%;
+            font-size: 1.8rem;
+            color: #4c4e5e;
+            font-weight: 600;
+            line-height: 2.6rem;
+          }
+          .blog-group-main {
+            display: flex;
+            flex-direction: column;
+            margin-left: 2.3rem;
+          }
+          .blog-group-title {
+            font-weight: 500;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            color: #383f47;
+            margin-bottom: 0.8rem;
+          }
+          .blog-ads img {
+            margin-top: 2.4rem;
+          }
+          .review {
+            padding-top: 4rem;
+          }
+          .review-pb {
+            padding-top: 0;
+            padding-bottom: 6rem;
+          }
+          .review-box {
+            width: calc(25% - 3.2rem);
+            margin-right: 3.2rem;
+          }
+          .review-box img {
+            width: 100%;
+            margin-bottom: 0.8rem;
+          }
+          .review-title {
+            font-size: 2.4rem;
+            line-height: 2.8rem;
+            color: #383f47;
+            font-family: "Roboto+Condensed", sans-serif;
+            position: relative;
+            z-index: 9999999999;
+            margin-bottom: 2.4rem;
+          }
+          .review-title::before {
+            position: absolute;
+            content: "";
+            width: 60%;
+            background-color: #d1193f;
+            height: 0.5rem;
+            bottom: 0;
+            z-index: -1000000;
+          }
+          .review-nth-1::before {
+            width: 45%;
+          }
+          .review-nth-2::before {
+            width: 39%;
+          }
+          .review-nth-3::before {
+            width: 39%;
+          }
+          .review-text-title {
+            margin-bottom: 0.8rem;
+          }
+          .review-text-title a {
+            font-size: 1.6rem;
+            color: #4c4e5e;
+            font-weight: 600;
+            line-height: 2.4rem;
+          }
+          .review-text-title a:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .review-desc {
+            font-size: 1.2rem;
+            font-weight: 600;
+            line-height: 1.8rem;
+            color: #646d84;
+            margin-bottom: 0.4rem;
+            font-size: 1.3rem;
+          }
+          .review-date {
+            float: none;
+            margin-bottom: 0.8rem;
+            border-bottom: 0.1rem solid #ecedf1;
+          }
+          .review-theme-text {
+            margin-top: 0.8rem;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            color: #383f47;
+            border-bottom: 0.1rem solid #ecedf1;
+          }
+          .home-kitchen-group {
+            position: relative;
+            border-radius: 0.8rem;
+            box-shadow: 0px 0px 2.4rem rgba(56, 63, 71, 0.05);
+            border-radius: 0.8rem;
+            border: 0.1rem solid #ecedf1;
+            padding: 1.6rem;
+            margin-bottom: 0.8rem;
+          }
+          .home-kitchen .tag-img {
+            width: 4.8rem;
+            height: 2.4rem;
+            margin-bottom: 0.8rem;
+            display: block;
+          }
+          .home-kitchen .imgage-kitchen {
+            width: 100%;
+            margin-bottom: 1.6rem;
+          }
+          .home-kitchen-price {
+            font-weight: bold;
+            font-size: 1.6rem;
+            color: #383f47;
+            line-height: 2.4rem;
+            margin-bottom: 0.8rem;
+          }
+          .home-kitchen .eat-text {
+            color: #646d84;
+            margin-bottom: 0.8rem;
+          }
+          .home-kitchen-store {
+            font-weight: 600;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            color: #f39b13;
+          }
+          .home-kitchen-cart-btn {
+            position: absolute;
+            top: 15.8rem;
+            right: 1.7rem;
+          }
+          .home-kitchen-cart-btn a {
+            width: 4rem;
+            height: 4rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            box-shadow: 0px 0px 0.8rem rgba(0, 0, 0, 0.1);
+            border-radius: 100%;
+            font-size: 1.6rem;
+            color: #646d84;
+          }
+          .home-kitchen-cart-btn a:hover {
+            color: #ffffff;
+            background-color: #05a85e;
+            transition: 0.2s linear;
+          }
+          
+          .culinary {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+          }
+          .culinary-pt {
+            padding-top: 0;
+          }
+          .culinary-left {
+            width: calc(70% - 3.2rem);
+            margin-right: 3.2rem;
+          }
+          .culinary-right {
+            width: calc(30% - 3.2rem);
+          }
+          .culinary-full {
+            display: flex;
+            margin-bottom: 3rem;
+          }
+          .culinary-image {
+            width: 100%;  
+            margin-top: 1.6rem;
+            position: relative;
+           
+          }
+          .culinary-image p {
+            position: absolute;
+            bottom: 1.2rem;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            padding-left: 1.6rem;
+            padding-right: 1.6rem;
+          }
+          .culinary-image img {
+            width: 100%;
+            object-fit: cover;
+          }
+          .culinary-image::before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 79.17%);
+            opacity: 0.5;
+            border-radius: 0.8rem;
+          }
+          .culinary-nav {
+            margin-left: 4rem;
+          }
+          .culinary-main {
+            display: flex;
+            align-items: center;
+            margin-bottom: 3rem;
+          }
+          .culinary-list {
+            display: inline-block;
+            margin-right: 2.4rem;
+          }
+          .culinary-link {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            color: #383f47;
+          }
+          .culinary-link:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .culinary-box {
+            width: calc(60% - 3.2rem);
+            margin-right: 3.2rem;
+          }
+          .culinary-box-1 {
+            width: calc(40% - 3.2rem);
+            margin-right: 3.2rem;
+          }
+          .culinary-img {
+            width: 100%;
+          }
+          .culinary__main {
+            display: flex;
+            margin-bottom: 1.9rem;
+          }
+          .culinary__main img {
+            width: 9.8rem;
+            height: 6.4rem;
+            display: block;
+            margin-right: 1.6rem;
+          }
+          .culinary__main h3 {
+            font-weight: 600;
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            color: #4c4e5e;
+            margin-top: 1.6rem;
+            margin-bottom: 1.6rem;
+            cursor: pointer;
+          }
+          .culinary__main h3:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .culinary-flex-columns {
+            flex-direction: column;
+          }
+          .culinary-flex-columns img {
+            width: 100%;
+            height: 28rem;
+          }
+          .culinary-title {
+            font-weight: 600;
+            font-size: 2.4rem;
+            line-height: 3.2rem;
+            color: #4c4e5e;
+            margin-bottom: 0.8rem;
+            margin-top: 1.6rem;
+            cursor: pointer;
+          }
+          .culinary-title:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .culinary-desc {
+            font-weight: 600;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            color: #646d84;
+          }
+          .culinary .mt-0 {
+            margin-top: 0;
+          }
+          .culinary-product {
+            margin-top: 7.5rem;
+          }
+          .culinary-tag-img {
+            width: 4.8rem;
+            height: 2.4rem;
+            margin-bottom: 0.8rem;
+            display: block;
+          }
+          .culinary-imgage-kitchen {
+            width: 100%;
+            margin-bottom: 1.6rem;
+          }
+          .culinary-eat-text {
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+            color: #646d84;
+            margin-bottom: 0.8rem;
+          }
+          * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: inherit;
+          }
+          
+          html {
+            font-size: 62.5%;
+            box-sizing: border-box;
+            font-family: "Raleway", sans-serif;
+          }
+          
+          .container {
+            width: 1150px;
+            margin: 0 auto;
+            max-width: 100%;
+            padding: 0 15px;
+          }
+          
+          .full-width {
+            width: 100%;
+            overflow: hidden;
+          }
+          
+          .box-container {
+            display: flex;
+            flex-wrap: wrap;
+          }
+          
+          .box-container-center {
+            margin-right: -3.2rem;
+          }
+          
+          .mt-0 {
+            margin-top: 0;
+          }
+          
+          .mb-24 {
+            margin-bottom: 2.4rem;
+          }
+          
+          .mt-16 {
+            margin-top: 1.6rem;
+          }
+          
+          .mt-40 {
+            margin-top: 4rem;
+          }
+          
+          .header {
+            margin-top: 2.4rem;
+          }
+          .header-main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 2.4rem;
+            border-bottom: 0.1rem solid #ecedf1;
+          }
+          .header-logo {
+            display: flex;
+            align-items: center;
+          }
+          .header-logo .logo-img {
+            margin-right: 4rem;
+          }
+          .header-form {
+            width: 100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+          }
+          .header-form input {
+            width: 34rem;
+            height: 4rem;
+            background-color: #ecedf1;
+            border-radius: 2rem;
+            border: none;
+            padding: 0.9rem 1.6rem;
+          }
+          .header-form i {
+            position: absolute;
+            right: 2rem;
+            font-size: 1.7rem;
+            color: #d1193f;
+          }
+          .header-nav-list {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: 4rem;
+          }
+          .header-nav-link {
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+            color: #383f47;
+          }
+          .header-nav-link:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .header-nav-img {
+            width: 2.4rem;
+            height: 2.4rem;
+            margin-bottom: 0.8rem;
+          }
+          
+            .header-form {
+              width: 25rem;
+            }
+            .header-nav-list {
+              margin-right: 1.8rem;
+            }
+            .header-nav-link {
+              font-size: 1.3rem;
+            }
+          .header-logo .logo-img {
+            margin-right: 3rem;
+          }
+           .header-main {
+              flex-direction: column;
+            }
+            .header-nav-menu {
+              margin-top: 1.6rem;
+            }
+            .header-nav-list {
+              margin-right: 1.5rem;
+            }
+             .header .logo-img {
+              margin-right: 2rem;
+            }
+          
+          
+          .header-bottom-main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 0.1rem solid #ecedf1;
+            padding-top: 1.3rem;
+            padding-bottom: 1.3rem;
+            margin-bottom: 3.3rem;
+          }
+          .header-bottom-list {
+            display: inline-block;
+            margin-right: 4rem;
+          }
+          .header-bottom-link {
+            color: #383f47;
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+          }
+          .header-bottom-link:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .header-bottom-link i {
+            margin-left: 0.4rem;
+            color: #d1193f;
+          }
+          .header-bottom .active {
+            color: #d1193f;
+          }
+          .header-bottom .btn {
+            background-color: #d1193f;
+            padding: 0.8rem 1.4rem;
+            color: #ffffff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+            border-radius: 0.8rem;
+          }
+          .food-deli-title {
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 4.7rem;
+            font-family: "Roboto+Condensed", sans-serif;
+            position: relative;
+          }
+          .food-deli-title::before {
+            position: absolute;
+            content: "";
+            background-color: #d1193f;
+            height: 0.8rem;
+            width: 100%;
+            bottom: 0;
+          }
+          .blog-deli-title::before {
+            width: 22%;
+          }
+          .blog-main {
+            display: flex;
+            margin-top: 1.6rem;
+            padding-top: 1.6rem;
+            border-top: 0.1rem solid #ecedf1;
+          }
+          .blog-img {
+            width: 200px;
+            height: 180px;
+            margin-right: 1.6rem;
+          }
+          .blog-content-title {
+            margin-bottom: 0.4rem;
+          }
+          .blog-content-title a {
+            font-size: 2.4rem;
+            line-height: 3.2rem;
+            font-weight: 600;
+            color: #383f47;
+          }
+          .blog-content-title a:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .blog-desc {
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+            color: #646d84;
+            margin-bottom: 1.2rem;
+          }
+          .blog-user {
+            display: flex;
+            align-items: center;
+          }
+          
+          .blog-name {
+            color: #383f47;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-right: 0.8rem;
+            line-height: 2.2rem;
+          }
+          .blog-monitor {
+            padding: 0.4rem 0.8rem;
+            background-color: #ffdae1;
+            color: red;
+            font-size: 1.2rem;
+            line-height: 2rem;
+            font-weight: 400;
+            border-radius: 0.4rem;
+            margin-right: 2.4rem;
+          }
+          .blog-share {
+            font-size: 1.6rem;
+            color: #9399a9;
+          }
+          .blog-date {
+            float: right;
+          }
+          .blog-date span {
+            font-size: 1.2rem;
+            color: #9399a9;
+            font-weight: 600;
+            line-height: 1.8rem;
+          }
+          .blog-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          
+          .blog-theme-img {
+            margin-bottom: 1.6rem;
+            width: 100%;
+          }
+          .blog-text {
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 2.6rem;
+            color: #4c4e5e;
+            margin-bottom: 0.8rem;
+            margin-right: 1.2rem;
+          }
+          .blog-text-share {
+            font-size: 1.4rem;
+            color: #9399a9;
+            font-weight: 400;
+            line-height: 2.2rem;
+          }
+          .blog-text-share i {
+            margin-right: 0.4rem;
+          }
+          .blog-instructions {
+            display: flex;
+          }
+          .blog-text-main {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 1.6rem;
+            border-bottom: 0.1rem solid #ecedf1;
+          }
+          .blog-instructions-1 {
+            font-size: 4.8rem;
+            font-weight: 600;
+            line-height: 5.6rem;
+            color: #d4d4d6;
+          }
+          .blog-group {
+            padding-top: 1.6rem;
+            display: flex;
+            align-items: center;
+          }
+          .blog-group a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 6rem;
+            height: 4rem;
+            background-color: #ecedf1;
+            border-radius: 100%;
+            font-size: 1.8rem;
+            color: #4c4e5e;
+            font-weight: 600;
+            line-height: 2.6rem;
+          }
+          .blog-group-main {
+            display: flex;
+            flex-direction: column;
+            margin-left: 2.3rem;
+          }
+          .blog-group-title {
+            font-weight: 500;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            color: #383f47;
+            margin-bottom: 0.8rem;
+          }
+          .blog-ads img {
+            margin-top: 2.4rem;
+          }
+          .review {
+            padding-top: 4rem;
+          }
+          .review-pb {
+            padding-top: 0;
+            padding-bottom: 6rem;
+          }
+          .review-box {
+            width: calc(25% - 3.2rem);
+            margin-right: 3.2rem;
+          }
+          .review-box img {
+            width: 100%;
+            margin-bottom: 0.8rem;
+          }
+          .review-title {
+            font-size: 2.4rem;
+            line-height: 2.8rem;
+            color: #383f47;
+            font-family: "Roboto+Condensed", sans-serif;
+            position: relative;
+            z-index: 9999999999;
+            margin-bottom: 2.4rem;
+          }
+          .review-title::before {
+            position: absolute;
+            content: "";
+            width: 60%;
+            background-color: #d1193f;
+            height: 0.5rem;
+            bottom: 0;
+            z-index: -1000000;
+          }
+          .review-nth-1::before {
+            width: 45%;
+          }
+          .review-nth-2::before {
+            width: 39%;
+          }
+          .review-nth-3::before {
+            width: 39%;
+          }
+          .review-text-title {
+            margin-bottom: 0.8rem;
+          }
+          .review-text-title a {
+            font-size: 1.6rem;
+            color: #4c4e5e;
+            font-weight: 600;
+            line-height: 2.4rem;
+          }
+          .review-text-title a:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .review-desc {
+            font-size: 1.2rem;
+            font-weight: 600;
+            line-height: 1.8rem;
+            color: #646d84;
+            margin-bottom: 0.4rem;
+            font-size: 1.3rem;
+          }
+          .review-date {
+            float: none;
+            margin-bottom: 0.8rem;
+            border-bottom: 0.1rem solid #ecedf1;
+          }
+          .review-theme-text {
+            margin-top: 0.8rem;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            color: #383f47;
+            border-bottom: 0.1rem solid #ecedf1;
+          }
+          .home-kitchen-group {
+            position: relative;
+            border-radius: 0.8rem;
+            box-shadow: 0px 0px 2.4rem rgba(56, 63, 71, 0.05);
+            border-radius: 0.8rem;
+            border: 0.1rem solid #ecedf1;
+            padding: 1.6rem;
+            margin-bottom: 0.8rem;
+          }
+          .home-kitchen .tag-img {
+            width: 4.8rem;
+            height: 2.4rem;
+            margin-bottom: 0.8rem;
+            display: block;
+          }
+          .home-kitchen .imgage-kitchen {
+            width: 100%;
+            margin-bottom: 1.6rem;
+          }
+          .home-kitchen-price {
+            font-weight: bold;
+            font-size: 1.6rem;
+            color: #383f47;
+            line-height: 2.4rem;
+            margin-bottom: 0.8rem;
+          }
+          .home-kitchen .eat-text {
+            color: #646d84;
+            margin-bottom: 0.8rem;
+          }
+          .home-kitchen-store {
+            font-weight: 600;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            color: #f39b13;
+          }
+          .home-kitchen-cart-btn {
+            position: absolute;
+            top: 15.8rem;
+            right: 1.7rem;
+          }
+          .home-kitchen-cart-btn a {
+            width: 4rem;
+            height: 4rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            box-shadow: 0px 0px 0.8rem rgba(0, 0, 0, 0.1);
+            border-radius: 100%;
+            font-size: 1.6rem;
+            color: #646d84;
+          }
+          .home-kitchen-cart-btn a:hover {
+            color: #ffffff;
+            background-color: #05a85e;
+            transition: 0.2s linear;
+          }
+          
+          .culinary {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+          }
+          .culinary-pt {
+            padding-top: 0;
+          }
+          .culinary-left {
+            width: calc(70% - 3.2rem);
+            margin-right: 3.2rem;
+          }
+          .culinary-right {
+            width: calc(30% - 3.2rem);
+          }
+          .culinary-full {
+            display: flex;
+            margin-bottom: 3rem;
+          }
+          .culinary-image {
+            width: 100%;  
+            margin-top: 1.6rem;
+            position: relative;
+           
+          }
+          .culinary-image p {
+            position: absolute;
+            bottom: 1.2rem;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            padding-left: 1.6rem;
+            padding-right: 1.6rem;
+          }
+          .culinary-image img {
+            width: 100%;
+            object-fit: cover;
+          }
+          .culinary-image::before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 79.17%);
+            opacity: 0.5;
+            border-radius: 0.8rem;
+          }
+          .culinary-nav {
+            margin-left: 4rem;
+          }
+          .culinary-main {
+            display: flex;
+            align-items: center;
+            margin-bottom: 3rem;
+          }
+          .culinary-list {
+            display: inline-block;
+            margin-right: 2.4rem;
+          }
+          .culinary-link {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            color: #383f47;
+          }
+          .culinary-link:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .culinary-box {
+            width: calc(60% - 3.2rem);
+            margin-right: 3.2rem;
+          }
+          .culinary-box-1 {
+            width: calc(40% - 3.2rem);
+            margin-right: 3.2rem;
+          }
+          .culinary-img {
+            width: 100%;
+          }
+          .culinary__main {
+            display: flex;
+            margin-bottom: 1.9rem;
+          }
+          .culinary__main img {
+            width: 9.8rem;
+            height: 6.4rem;
+            display: block;
+            margin-right: 1.6rem;
+          }
+          .culinary__main h3 {
+            font-weight: 600;
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            color: #4c4e5e;
+            margin-top: 1.6rem;
+            margin-bottom: 1.6rem;
+            cursor: pointer;
+          }
+          .culinary__main h3:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .culinary-flex-columns {
+            flex-direction: column;
+          }
+          .culinary-flex-columns img {
+            width: 100%;
+            height: 28rem;
+          }
+          .culinary-title {
+            font-weight: 600;
+            font-size: 2.4rem;
+            line-height: 3.2rem;
+            color: #4c4e5e;
+            margin-bottom: 0.8rem;
+            margin-top: 1.6rem;
+            cursor: pointer;
+          }
+          .culinary-title:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .culinary-desc {
+            font-weight: 600;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            color: #646d84;
+          }
+          .culinary .mt-0 {
+            margin-top: 0;
+          }
+          .culinary-product {
+            margin-top: 7.5rem;
+          }
+          .culinary-tag-img {
+            width: 4.8rem;
+            height: 2.4rem;
+            margin-bottom: 0.8rem;
+            display: block;
+          }
+          .culinary-imgage-kitchen {
+            width: 100%;
+            margin-bottom: 1.6rem;
+          }
+          .culinary-eat-text {
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 2.2rem;
+            color: #646d84;
+            margin-bottom: 0.8rem;
+          }
+          .culinary-line {
+            border-bottom: 0.1rem solid #ecedf1;
+          }
+          .culinary-title {
+            font-size: 2rem;
+            line-height: 2.6rem;
+          }
+          #page_wrap{
+            font-size: 1.4rem;
+          }
+          .container-2{
+            font-size: 1.4rem;
+          }
+          .pull-right{
+            float:left;
+            font-size: 1.4rem;
+          }
+          .prod{ 
+            width:36%;
+            float:left; 
+            margin-bottom:20px;
+          }
+          .prod .jqzoom img{ 
+            max-width:none;
+          }
+          
+          .prod-detail{ 
+               width:60%; 
+               float:right;
+               margin-bottom:40px;
+          }
+          .prod-detail h1{
+             font-weight:600;
+          }
+          
+          .prod-detail span.price{ 
+            display:block;
+            font-size:20px; 
+            color:#f5640c ; 
+          }
+          .prod-detail form{ 
+            float:left; 
+            margin:20px 0; 
+            width:100%; 
+            font-size:12px;
+          }
+          .prod-detail form select, .prod-detail form input{ 
+            border:1px solid #e5e5e5; 
+            background:#fff; 
+            padding:5px 5px; 
+          }
+          
+          .prod-detail form input{ 
+            width:30px;
+          }
+          .prod-detail span.cart-button{ 
+            float:left;
+          }
+          .prod-detail span.cart-button a{ padding:7px 15px; 
+            margin-right:5px; 
+            float:left; 
+            font-size:13px; 
+            font-weight:bold; 
+            color:#fff; 
+            background:#f5640c; 
+          }
+          .prod-detail span.cart-button a:hover{ 
+            background:#757575; 
+            color:#fff !important; 
+          }
+          .list-wrap{
+            font-size: 18px;
+          
+          }
+          #table3{
+              width: 65%;
+              border: solid;
+              border-width: 1px;
+              border-color: #d5d7d8;
+          }
+          #tdtable{
+              font-weight: bold;
+              color: #000;
+          }
+          #icontimkiem{
+              width: 60px;
+              height: 30px;
+          }
+          #anhtin{
+              padding-top: 0px;
+              padding-bottom: 22px;
+            width:740px;
+          }
+          #anhtin1{
+              width: 683.8px;
+              height: 390.27px;
+          }
+          #anhtin201{
+              padding-top: 0px;
+              padding-left: 45px;
+              font-weight: bold;
+              font-size: 20px;
+              padding-bottom: 35px;
+          }
+          #anhtin2{
+              width: 350px;
+              height: 170px;
+          }
+          #trungthu{
+              font-size: 16px;
+              color: #000;
+              font-weight: bold;
+          }
+          #trungthutd{
+              padding-left: 45px;
+              width: 260px;
+          }
+          #meovat{
+              font-size: 30px;
+          }
+          .table4{
+              width: 90%;
+              border: solid;
+              border-color: #d5d7d8;
+              background-color: #fff;
+              border-top-width: 0px;
+              border-left-width: 0px;
+              border-right-width: 0px;
+              border-bottom-width: 10px;
+              color: #000;
+              padding-top: 50px;
+              padding-bottom: 20px;
+          }
+          .imgtb4{
+              width: 213px;
+              height: 160px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-top: 0px;
+          }
+          .fonttb4{
+              color: #000;
+              font-size: 15px;
+              padding-left: 0px;
+              text-align: center;
+          }
+          .tdtb4{
+              border: solid;
+              border-color:#fff;
+              padding-right:0px;
+              padding-left: 0px;
+            
+          }
+          #img10{
+              width: 400px;
+              height: 600px;
+              padding-left: 20px;
+          }
+          .tdtb41{
+              color: #000;
+              padding-left: 20px;
+            font-size: 1.4rem;
+          }
+          .fontchinh{
+              font-size: 25px;
+          }
+          .product_area1 {
+            background-size: cover;
+          }
+          
+          
+          
+          .product_inner_row1 {
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+          }
+          
+          .product_inner_row1 .product_item_inner1 {
+            margin-bottom: -30px;
+          }
+          
+          .product_inner_row1 .product_item_inner1 .cake_feature_item1 {
+            margin-bottom: 30px;
+          }
+          
+          .product_inner_row1 .product_task_bar1 {
+            margin-bottom: 50px;
+          }
+          
+          .product_task_bar1 {
+            background: #fff;
+            padding: 0px 15px 0px 30px;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+          }
+          
+          .product_task_bar1 .product_task_inner1 {
+            width: 100%;
+          }
+          
+          .product_task_bar1 .product_task_inner1 .float-left1 a {
+            font-size: 12px;
+            color: #dddddd;
+            line-height: 53px;
+          }
+          
+          .product_task_bar1 .product_task_inner1 .float-left1 a + a {
+            margin-left: 7px;
+          }
+          
+          .product_task_bar1 .product_task_inner1 .float-left1 a.active {
+            color: #dd7175;
+          }
+          
+          .product_task_bar1 .product_task_inner1 .float-left1 span {
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            color: #797979;
+            line-height: 53px;
+            margin-left: 20px;
+          }
+          
+          .product_task_bar1 .product_task_inner1 .float-right1 h4 {
+            display: inline-block;
+            line-height: 53px;
+            color: #797979;
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            margin-bottom: 0px;
+          }
+          
+          .product_task_bar1 .product_task_inner1 .float-right1 .short {
+            display: inline-block;
+            float: none;
+            border: none;
+            padding-left: 0px;
+            padding-right: 45px;
+            height: auto;
+            line-height: 53px;
+          }
+          
+          .product_task_bar1 .product_task_inner1 .float-right1 .short .current {
+            color: #797979;
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+          }
+          
+          .product_task_bar1 .product_task_inner1 .float-right1 .short:after {
+            content: "\f0d7";
+            font: normal normal normal 14px/1 FontAwesome;
+            border: none;
+            -webkit-transform: rotate(0);
+            -ms-transform: rotate(0);
+            transform: rotate(0);
+            margin-top: -7px;
+            color: #a0a0a0;
+          }
+          
+          .left_sidebar1 {
+            margin-bottom: 45px;
+          }
+          
+          .left_sidebar1.search_widget1 .input-group1 input {
+            border-color: #e8e8e8;
+            border-radius: 4px;
+          }
+          
+          .p_w_title1 {
+            padding-bottom: 22px;
+          }
+          
+          .p_w_title1 h3 {
+            font-size: 24px;
+            color: #3e606b;
+            font-family: "Playfair Display", serif;
+            font-weight: bold;
+            display: inline-block;
+            position: relative;
+            margin-bottom: 0px;
+          }
+          
+          .p_w_title1 h3:before {
+            content: "";
+            width: 25px;
+            height: 1px;
+            background: #acb2b4;
+            position: absolute;
+            right: -50px;
+            bottom: 4px;
+          }
+          
+          .p_catgories_widget1 .list_style1 li a {
+            display: block;
+            border-bottom: 1px solid #e5e5e5;
+            font-size: 16px;
+            font-family: "Open Sans", sans-serif;
+            color: #242424;
+            line-height: 42px;
+            -webkit-transition: all 400ms linear 0s;
+            -o-transition: all 400ms linear 0s;
+            transition: all 400ms linear 0s;
+          }
+          
+          .p_catgories_widget1 .list_style1 li:hover a {
+            color: #f195b2;
+          }
+          
+          .p_price_widget1 .filter_price1 {
+            position: relative;
+          }
+          
+          .p_price_widget1 .filter_price1 .ui-slider1 {
+            border: none;
+            background: #d1d1d1;
+            border-radius: 0px;
+            height: 6px;
+            margin-bottom: 18px;
+          }
+          
+          .p_price_widget1 .filter_price1 .ui-slider1 .ui-slider-range1 {
+            background: #3e606b;
+          }
+          
+          .p_price_widget1 .filter_price1 .ui-slider1 .ui-slider-handle1 {
+            width: 7px;
+            height: 24px;
+            background: #d1d1d1;
+            border-radius: 0px;
+            border: none;
+            margin-left: -5px;
+            top: -10px;
+            outline: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            cursor: pointer;
+          }
+          
+          .p_price_widget1 .filter_price label1 {
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            color: #797979;
+          }
+          
+          .p_price_widget1 .filter_price1 input {
+            background: transparent;
+            border-radius: 0px;
+            border: none;
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            color: #797979;
+          }
+          
+          .p_price_widget1 .filter_price1 a {
+            position: absolute;
+            right: 0px;
+            font-size: 14px;
+            color: #3e606b;
+            font-family: "Open Sans", sans-serif;
+          }
+          
+          .p_sale_widget1 .media1 {
+            margin-top: 20px;
+          }
+          
+          .p_sale_widget1 .media1 .d-flex {
+            padding-right: 22px;
+          }
+          
+          .p_sale_widget1 .media1 .media-body1 h4 {
+            font-size: 20px;
+            font-family: "Playfair Display", serif;
+            color: #242424;
+            margin-bottom: 5px;
+            -webkit-transition: all 400ms linear 0s;
+            -o-transition: all 400ms linear 0s;
+            transition: all 400ms linear 0s;
+          }
+          
+          .p_sale_widget1 .media1 .media-body1 h4:hover {
+            color: #f195b2;
+          }
+          
+          .p_sale_widget1 .media1 .media-body1 .list_style1 li {
+            display: inline-block;
+          }
+          
+          .p_sale_widget1 .media1 .media-body1 .list_style1 li a {
+            color: #d6d2d5;
+            font-size: 12px;
+            line-height: 12px;
+          }
+          
+          .p_sale_widget1 .media1 .media-body1 h5 {
+            font-size: 20px;
+            font-family: "Playfair Display", serif;
+            color: #242424;
+            font-style: italic;
+            margin-top: 5px;
+            margin-bottom: 0px;
+          }
+          
+          .p_sale_widget1 .media1:nth-child(2) {
+            margin-top: 0px;
+          }
+          
+          .product_pagination1 {
+            overflow: hidden;
+            padding-top: 50px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            border-top: 1px solid #dddddd;
+            margin-top: 80px;
+          }
+          
+          .product_pagination1 .left_btn1 {
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            width: 50%;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            vertical-align: middle;
+            -ms-flex-item-align: center;
+            align-self: center;
+          }
+          
+          .product_pagination1 .left_btn1 a {
+            line-height: 46px;
+            border: 1px solid #e1e1e1;
+            border-radius: 3px;
+            background: #fff;
+            display: inline-block;
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            color: #797979;
+            padding: 0px 25px;
+            -webkit-transition: all 400ms linear 0s;
+            -o-transition: all 400ms linear 0s;
+            transition: all 400ms linear 0s;
+          }
+          
+          .product_pagination1 .left_btn1 a i {
+            padding-right: 30px;
+          }
+          
+          .product_pagination1 .left_btn1 a:hover {
+            background: #f195b2;
+            border-color: #f195b2;
+            color: #fff;
+          }
+          
+          .product_pagination1 .middle_list1 {
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+          }
+          
+          .product_pagination1 .middle_list1 .pagination1 {
+            margin-bottom: 0px;
+            border: none;
+          }
+          
+          .product_pagination1 .middle_list1 .pagination1 li {
+            display: inline-block;
+            margin-right: 8px;
+          }
+          
+          .product_pagination1 .middle_list1 .pagination1 li a {
+            border: none;
+            border: 1px solid #e1e1e1;
+            border-radius: 3px;
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            color: #797979;
+            line-height: 44px;
+            padding: 0px 18px;
+            -webkit-transition: all 400ms linear 0s;
+            -o-transition: all 400ms linear 0s;
+            transition: all 400ms linear 0s;
+          }
+          
+          .product_pagination1 .middle_list1 .pagination1 li:hover a, .product_pagination1 .middle_list1 .pagination1 li.active a {
+            background: #f195b2;
+            color: #fff;
+            border-color: #f195b2;
+          }
+          
+          .product_pagination1 .right_btn1 {
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            width: 50%;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+            vertical-align: middle;
+            -ms-flex-item-align: center;
+            align-self: center;
+          }
+          
+          .product_pagination1 .right_btn1 a {
+            line-height: 46px;
+            border: 1px solid #e1e1e1;
+            border-radius: 3px;
+            background: #fff;
+            display: inline-block;
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            color: #797979;
+            padding: 0px 25px;
+            -webkit-transition: all 400ms linear 0s;
+            -o-transition: all 400ms linear 0s;
+            transition: all 400ms linear 0s;
+          }
+          
+          .product_pagination1 .right_btn1 a i {
+            padding-left: 30px;
+          }
+          
+          .product_pagination1 .right_btn1 a:hover {
+            background: #f195b2;
+            border-color: #f195b2;
+            color: #fff;}
+            .container1 {
+              max-width: 1200px;} 
+          .footer-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 1.6rem;
+            border-bottom: 0.1rem solid #ecedf1;
+            margin-bottom: 2.4rem;
+          }
+          .footer-list {
+            display: inline-block;
+            margin-right: 0.8rem;
+          }
+          .footer-link {
+            padding-right: 0.8rem;
+            border-right: 0.1rem solid #b0b5c1;
+            font-weight: normal;
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            color: #4c4e5e;
+            font-family: "Roboto", sans-serif;
+          }
+          .footer-link:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .footer-nav-list {
+            display: inline-block;
+            margin-right: 0.8rem;
+          }
+          .footer-nav-link {
+            padding-right: 0.8rem;
+            border-right: 0.1rem solid #b0b5c1;
+            font-size: 1.2rem;
+            line-height: 0.4rem;
+            color: #4c4e5e;
+            font-family: "Roboto", sans-serif;
+          }
+          .footer-nav-link:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .footer-nav-link i {
+            margin-right: 0.4rem;
+            font-size: 1.4rem;
+          }
+          .footer-flex {
+            display: flex;
+            justify-content: space-between;
+          }
+          .footer-logo {
+            display: flex;
+          }
+          .footer-logo img {
+            margin-right: 4rem;
+          }
+          .footer-desc {
+            font-weight: normal;
+            font-size: 1.2rem;
+            line-height: 2.4rem;
+            font-family: "Roboto", sans-serif;
+            color: #4c4e5e;
+          }
+          .footer-title {
+            font-size: 1.6rem;
+            font-weight: normal;
+            line-height: 2.4rem;
+            color: #4c4e5e;
+            margin-bottom: 0.8rem;
+          }
+          .footer-social a {
+            margin-right: 2.4rem;
+            font-size: 1.8rem;
+            color: #4c4e5e;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .culinary-line {
+            border-bottom: 0.1rem solid #ecedf1;
+          }
+          .culinary-title {
+            font-size: 2rem;
+            line-height: 2.6rem;
+          }
+          .footer {
+            padding-top: 1.6rem;
+            padding-bottom: 1.6rem;
+            background-color: #f7f7f7;
+          }
+          .footer-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 1.6rem;
+            border-bottom: 0.1rem solid #ecedf1;
+            margin-bottom: 2.4rem;
+          }
+          .footer-list {
+            display: inline-block;
+            margin-right: 0.8rem;
+          }
+          .footer-link {
+            padding-right: 0.8rem;
+            border-right: 0.1rem solid #b0b5c1;
+            font-weight: normal;
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            color: #4c4e5e;
+            font-family: "Roboto", sans-serif;
+          }
+          .footer-link:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .footer-nav-list {
+            display: inline-block;
+            margin-right: 0.8rem;
+          }
+          .footer-nav-link {
+            padding-right: 0.8rem;
+            border-right: 0.1rem solid #b0b5c1;
+            font-size: 1.2rem;
+            line-height: 0.4rem;
+            color: #4c4e5e;
+            font-family: "Roboto", sans-serif;
+          }
+          .footer-nav-link:hover {
+            color: #d1193f;
+            transition: 0.2s linear;
+          }
+          .footer-nav-link i {
+            margin-right: 0.4rem;
+            font-size: 1.4rem;
+          }
+          .footer-flex {
+            display: flex;
+            justify-content: space-between;
+          }
+          .footer-logo {
+            display: flex;
+          }
+          .footer-logo img {
+            margin-right: 4rem;
+          }
+          .footer-desc {
+            font-weight: normal;
+            font-size: 1.2rem;
+            line-height: 2.4rem;
+            font-family: "Roboto", sans-serif;
+            color: #4c4e5e;
+          }
+          .footer-title {
+            font-size: 1.6rem;
+            font-weight: normal;
+            line-height: 2.4rem;
+            color: #4c4e5e;
+            margin-bottom: 0.8rem;
+          }
+          .footer-social a {
+            margin-right: 2.4rem;
+            font-size: 1.8rem;
+            color: #4c4e5e;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+    </style>
+    <style>
+        .content1{
+            border:none;
+            box-shadow: -6px -6px 10px #f9f9f9,
+                    6px 6px 10px #00000026;
+            height:200px;
+
+            
+        }
+        .ct1{
+            position:relative;
+            left:180px;
+            top:50px;
+            font-size: 35px;
+        }
+        .ct2{
+            position:relative;
+            left:180px;
+            top:50px;
+            right:50px;
+            font-size: 15px;
+            
+        }
+        .content2{
+            padding-top:20px;
+            border:none;
+            box-shadow: -6px -6px 10px #f9f9f9,
+                    6px 6px 10px #00000026;
+            height:2400px;
+            display:flex;
+        }
+        .dd1{
+            display:flex;
+            padding:40px;
+        }
+        .dd3{
+            text-indent:30px;
+            font-size: 23px;
+        }
+        .dd3:hover{
+            color:red;
+        }
+        .dd2{
+            font-size: 15px;
+            color:#000;
+            padding:8px;
+        }
+        .c3{
+            position:relative;
+            top:50px;
+            right:30px;
+            border:1px solid black;
+            width:290px;
+            height:400px;
+            font-size: 28px;
+        }.c1{
+            padding:50px;
+        }
+        input{
+            width:20px;
+            height:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main full-width">
+        <div class="header">
+            <div class="container">
+                <div class="header-main">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img class="logo-img" src="c:\Users\THAI PC\OneDrive\Tài liệu\img\c21f70a6e3cd467d8cbb1346b96b913c.png" alt="" />
+                        </a>
+                        <div class="header-form">
+                            <input type="text" placeholder="Tìm kiếm" />
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="header-nav">
+                        <ul class="header-nav-menu">
+                            <li class="header-nav-list">
+                                <img class="header-nav-img" src="c:\Users\THAI PC\OneDrive\Tài liệu\img\news.png" alt="" />
+                                <a href="#" class="header-nav-link">Food News</a>
+                            </li>
+                            <li class="header-nav-list">
+                                <img class="header-nav-img" src="c:\Users\THAI PC\OneDrive\Tài liệu\img\cook.png" alt="" />
+                                <a href="#" class="header-nav-link">Food Deli</a>
+                            </li>
+                            <li class="header-nav-list">
+                                <img class="header-nav-img" src="c:\Users\THAI PC\OneDrive\Tài liệu\img\book.png" alt="" />
+                                <a href="#" class="header-nav-link">Food Cook</a>
+                            </li>
+                            <li class="header-nav-list">
+                                <img class="header-nav-img" src="c:\Users\THAI PC\OneDrive\Tài liệu\img\review.png" alt="" />
+                                <a href="#" class="header-nav-link">Food Review</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom-main">
+                    <div class="header-bottom-menu">
+                        <ul>
+                            <li class="header-bottom-list">
+                                <a href="file:///C:/Users/THAI%20PC/OneDrive/Ta%CC%80i%20li%C3%AA%CC%A3u/chiasecongthucnauan.html" class="header-bottom-link active">Trang chủ<i class="fa fa-caret-down"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="header-bottom-list">
+                                <a href="file:///C:/Users/THAI%20PC/OneDrive/Ta%CC%80i%20li%C3%AA%CC%A3u/monngon.html" class="header-bottom-link">Món ngon mỗi ngày<i class="fa fa-caret-down"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="header-bottom-list">
+                                <a href="file:///C:/Users/THAI%20PC/OneDrive/Ta%CC%80i%20li%C3%AA%CC%A3u/goiy.html#" class="header-bottom-link">Gợi ý<i class="fa fa-caret-down"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="header-bottom-list">
+                                <a href="file:///C:/Users/THAI%20PC/Downloads/s%E1%BB%91ng-kh%E1%BB%8Fe%20(1).html" class="header-bottom-link">Sống khỏe<i class="fa fa-caret-down"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="header-bottom-list">
+                                <a href="file:///C:/Users/THAI%20PC/OneDrive/Ta%CC%80i%20li%C3%AA%CC%A3u/muasam.html" class="header-bottom-link">Mua sắm<i class="fa fa-caret-down"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="header-bottom-list">
+                                <a href="file:///C:/Users/THAI%20PC/OneDrive/Ta%CC%80i%20li%C3%AA%CC%A3u/diadiem.html" class="header-bottom-link">Địa điểm<i class="fa fa-caret-down"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-bottom-login">
+                        <a href="file:///C:/Users/THAI%20PC/OneDrive/Ta%CC%80i%20li%C3%AA%CC%A3u/dangky.html#" class="btn">Tài khoản</a>
+                        
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+            <div class="content">
+                <div class="content1">
+                    <h1 class="ct1">ĐỊA ĐIỂM ĂN UỐNG NỔI TIẾNG</h1>
+                    <p class="ct2">Chuyên mục Địa điểm ăn uống chia sẻ các quán ăn ngon theo xu hướng mới của giới trẻ hiện nay. Các địa chỉ ăn uống “hot” này được cập nhật liên tục và đầy đủ. <br>Bao gồm những quán ăn ngon, giá rẻ tại Hà Nội, TPHCM, hoặc các tỉnh, thành phố lớn. Người đọc sẽ có thêm thông tin cần thiết để lựa chọn quán ăn ngon theo nhu cầu. <br>Từ đó, thoải mái tận hưởng những ngày cuối tuần bên cạnh bạn bè, người thân<br>Hãy theo dõi chuyên mục thường xuyên để cập nhật các địa điểm ăn uống giá rẻ, ngon miệng nhé!</p>
+                </div>
+                <div class="content2">
+                    <div class="c1">
+                    <a href="#" class="dd1"> 
+                        <img src="https://trangnauan.com/wp-content/uploads/2024/01/top-15-quan-tra-sua-ngon-duoc-ua-chuong-nhat-tphcm-360x216.jpg">
+                        <d1><h1 class="dd3">Top 15 quán trà sữa ngon được ưa chuộng nhất TPHCM</h1><p class="dd2">TPHCM được biết đến là thành phố năng động, nơi tập trung nhiều quán ăn, cửa hàng thức uống. Trong đó, nổi bật nhất là những quán trà sữa thơm ngon, làm giới trẻ “điêu đứng”. Bài viết này tập hợp danh sách top 15 quán trà sữa ngon được ưa chuộng nhất TPHCM. Đọc ngay để khám phá thế giới trà sữa đầy hương vị và màu sắc!</p></d1>
+                        
+                    </a>
+                    <a href="#" class="dd1">
+                        <img src="https://trangnauan.com/wp-content/uploads/2022/01/lam-com-trua-van-phong-don-gian-360x216.jpg">
+                        <d1><h1 class="dd3">Top 11 địa chỉ cơm bình dân giá rẻ </h1><p class="dd2">Làm cơm trưa văn phòng đơn giản chính là giải pháp giúp bạn giải quyết bài toán “trưa nay ăn gì” đúng không nào? Xu hướng mang cơm theo đến nơi công sở đã trở thành thói quen được nhiều người chọn lựa. Bởi không cần phải lang thang giữa thời tiết giữa trưa nắng gắt để tìm nơi bán thức ăn, mà bạn vẫn có thể thưởng thức bữa trưa vừa đảm bảo dinh dưỡng, cung cấp năng lượng làm việc lại vừa an toàn cho sức khỏe</p></d1>
+                    </a>
+                    <a href="#" class="dd1">
+                        <img src="https://trangnauan.com/wp-content/uploads/2022/01/cafe-com-trua-van-phong-quan-10-360x216.jpg">
+                        <d1><h1 class="dd3">Top 8 quán cafe văn phòng ngon và chất lượng nhất</h1> <p class="dd2">Cafe cơm trưa văn phòng quận 10 đang là hình thức rất được dân công sở ưa chuộng. Bởi vừa có những bữa trưa ngon miệng, no bụng lại vừa được nhâm nhi cà phê hoặc các loại nước giải khát. Bên cạnh đó còn được nghỉ ngơi, thư giãn trong một không gian thoáng mát và thoải mái. Vậy cùng tham khảo một số quán cà phê kết hợp phục vụ cơm trưa ngon, giá cả phải chăng cho dân văn phòng quận 10 nhé.</p></d1>
+                    </a>
+                    <a href="#" class="dd1">
+                        <img src="https://trangnauan.com/wp-content/uploads/2021/11/cach-nau-bun-bo-hue-cua-nguoi-hue-360x216.jpg">
+                        <d1><h1 class="dd3">Top 10 quán bún bò bò huế ngon ở Hà Nội</h1><p class="dd2">Cách nấu bún bò Huế của người Huế kiểu truyền thống ngày nay đã trở nên phổ biến tại nhiều địa phương khắp cả nước và trên thế giới. Bún bò Huế được đánh giá là một trong những món ăn ngon đặc sản của người Việt Nam nhận được rất nhiều lời khen ngợi từ thực khách quốc tế. Nước dùng bún bò Huế đúng chuẩn được chế biến bằng cách ninh từ các loại xương bò hoặc xương heo (đuôi bò, móng bò, xương cổ heo, móng giò heo,...) cùng các loại gia vị thảo mộc. Vậy nên hương vị nước dùng món ăn mới đậm đà tròn vị. Mới nghe qua thôi đã thấy hấp dẫn lắm rồi, hãy cùng webnauan.vn học ngay người Huế nấu bún bò Huế nhé!</p></d1>
+                    </a>
+                    <a href="#" class="dd1">
+                        <img src="https://trangnauan.com/wp-content/uploads/2021/03/buffet-hai-san-179k-360x216.jpg">
+                        <d1><h1 class="dd3">Top 10 nhà hàng buffe giá rẻ chất lượng ở thành phố Hồ Chí Minh</h1> <p class="dd2">Buffet hải sản 179K sẽ là lựa chọn lý tưởng để tụ tập bạn bè vào dịp cuối tuần đấy. Đối với những tín đồ ẩm thực, buffet hải sản luôn là lựa chọn số 1 bởi độ ngon, hấp dẫn, ăn nhiều mà không cần lo béo. Đến với bài viết này, hãy cùng khám phá top những địa chỉ buffet hải sản giá siêu mềm, đảm bảo ăn no quên lối về nhé.</p></d1>
+                    </a>
+                    <a href="#" class="dd1">
+                        <img src="https://trangnauan.com/wp-content/uploads/2020/12/toi-nay-an-gi-o-ha-noi-360x216.jpg">
+                        <d1><h1 class="dd3">Top 18 địa chỉ quán ăn bình dân Hà Nội </h1><p class="dd2">Tối nay ăn gì ở Hà Nội để trải nghiệm hết ẩm thực của vùng đất Kinh kỳ ngàn năm văn hiến? Từ lâu, ẩm thực miền Bắc nói chung và Hà Nội nói riêng là đặc sắc nhất trong tất cả các vùng đất ở Việt Nam. Nếu có cơ hội đến với Thủ đô, bạn nhất định phải thử hết những quán ăn ngon bình dân đặc sắc nhất, đang "hot" dành cho giới trẻ nơi đây nhé.</p></d1>
+                    </a>
+                    <a href="#" class="dd1">
+                        <img src="https://trangnauan.com/wp-content/uploads/2020/03/cach-lam-banh-mi-bo-toi-pho-mai-han-quoc-tan-chay-360x216.jpg">
+                        <d1><h1 class="dd3">Top 13 quán bánh mì bơ tỏi</h1> <p class="dd2">Cách làm bánh mì bơ tỏi phô mai tan chảy Hàn Quốc "hot trend" đã về đến Việt Nam với nhiều công thức đa dạng, sáng tạo và cực kì thơm ngon. Lớp phô mai tan chảy béo thơm ở trên kết hợp vị bơ tỏi mằn mặn, cắn một miếng bánh mì nướng giòn tạo nên sự kết hợp ẩm thực vô cùng mới lạ và hấp dẫn. Nếu bạn đã sẵn sàng vào bếp để thực hiện món ăn vặt ngày hè này, hãy thực hiện theo từng bước hướng dẫn chi tiết dưới đây của webnauan.vn, đảm bảo món bánh mì "vạn người mê" này sẽ bị bạn chinh phục ngay từ lần đầu tiên thực hiện!</p></d1>
+                    </a>
+                    <a href="#" class="dd1">
+                        <img src="https://trangnauan.com/wp-content/uploads/2020/03/cach-lam-mien-tron-han-quoc-chuan-ngon-japchae-360x216.jpg">
+                        <d1><h1 class="dd3">Top 8 quán bún trộn hàn quốc</h1> <p class="dd2">Cách làm miến trộn Hàn Quốc còn có tên gọi là Japchae, đây là một trong những món ăn nổi tiếng của Hàn Quốc cùng với kimbap, gimbap, bibimbap,... Không khó để bắt gặp món miến trộn Hàn Quốc tại các quán ẩm thực Hàn ở Việt Nam. Món ăn này đã trở thành đặc sản của xứ sở kim chi được rất nhiều người yêu thích. Cách làm miến trộn Hàn Quốc thực chất không quá khó. Chỉ với những nguyên liệu đơn giản như miến, thịt cùng các loại rau củ mix lại với nhau là bạn đã có ngay một món ăn ngon tuyệt hảo rồi. Sau đây webnauan.vn sẽ hướng dẫn bạn làm món miến trộn Hàn Quốc chuẩn như ngoài hàng nhé.</p></d1>
+                    </a>
+                    </div>
+                    <div class="c2">
+                        <table class="c3" border="1">
+                            <tr>
+                                <th >Hôm nay ăn gì </th>
+                            </tr>
+                            <tr>
+                                <td font-size="20px"><input type="checkbox">Mới nhất </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox">Lượt xem nhiều nhất </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox">Phổ biến nhất </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox">Đã lưu vào yêu thích </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <div class="container">
+                    <div class="footer-main">
+                        <div class="footer-nav-left">
+                            <ul>
+                                <li class="footer-list">
+                                    <a href="#" class="footer-link">Giới thiệu</a>
+                                </li>
+                                <li class="footer-list">
+                                    <a href="#" class="footer-link">Chính sách bảo mật</a>
+                                </li>
+                                <li class="footer-list">
+                                    <a href="#" class="footer-link">Quảng cáo</a>
+                                </li>
+                                <li class="footer-list">
+                                    <a href="#" class="footer-link">Hotline 033 660 6263</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-nav-right">
+                            <ul>
+                                <li class="footer-nav-list">
+                                    <a href="" class="footer-nav-link">
+                                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                        Ấn để theo dõi Food.com.vn
+                                    </a>
+                                </li>
+                                <li class="footer-nav-list">
+                                    <a href="" class="footer-nav-link">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        Thông tin liên hệ
+                                    </a>
+                                </li>
+                                <li class="footer-nav-list">
+                                    <a href="" class="footer-nav-link">
+                                        <i class="fa fa-rss" aria-hidden="true"></i>
+                                        RSS
+                                    </a>
+                                </li>
+                                <li class="footer-nav-list">
+                                    <a href="" class="footer-nav-link">
+                                        <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+                                        Lên đầu trang
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-flex">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="./assets/img/Logo.png" alt="">
+                            </a>
+                            <div class="footer-information">
+                                <p class="footer-desc">© 2021 Công ty TNHH Tập đoàn TTSTT
+                                </p>
+                                <p class="footer-desc">Ban biên tập Food Review
+            
+                                </p>
+                                <p class="footer-desc">Địa chỉ: NV 5.10 Khu đô thị Hinode Ryoal Park, Kim Chung, Hoài Đức, Hà Nội
+            
+                                </p>
+                                <p class="footer-desc">Điện thoại: 033 660 6263 - Email: nguyenquocthaithtb@gmail.com
+            
+                                </p>
+                                <p class="footer-desc">Chịu trách nhiệm nội dung: Nguyễn Quốc Thái
+            
+                                </p>
+                                <p class="footer-desc"> Ký ngày: 21/03/2024
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer-social">
+                            <p class="footer-title">Kết nối với chúng tôi</p>
+                            <a href="https://www.facebook.com/profile.php?id=100053153595014"><img src="c:\Users\THAI PC\Downloads\Food news\Food news\assets\img\ant-design_facebook-filled.png" alt=""></a>
+                            <a href="https://www.youtube.com/channel/UCrimapMWknQ15MEPUS0FYqw"><img src="c:\Users\THAI PC\Downloads\Food news\Food news\assets\img\ci_youtube.png" alt=""></a>
+                            <a href="#">
+                                <img src="c:\Users\THAI PC\Downloads\Food news\Food news\assets\img\bx_bxl-tiktok.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="c:\Users\THAI PC\Downloads\Food news\Food news\assets\img\ant-design_instagram-filled.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="c:\Users\THAI PC\Downloads\Food news\Food news\assets\img\ant-design_twitter-outlined.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </body>
+            
+            </html>
